@@ -37,7 +37,7 @@ Only you need have required tools and download GLUT library from here [freeglut]
 
 
 * Then configure your includes by adding line in your [CMakeLists.txt](./CMakeLists.txt#L15)
-`include_directories(freeglut/include)`
+  `include_directories(freeglut/include)`
   #### For 32 bit GCC compiler
     Add library for linking in [CMakeLists.txt](./CMakeLists.txt#L18)
     -  `link_directories(freeglut/lib)`
