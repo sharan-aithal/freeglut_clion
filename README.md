@@ -5,7 +5,7 @@ You need download GLUT library from here [freeglut](https://www.transmissionzero
 ## Set up
 Download and extract freeglut inside project's directory.
 Directory structure:
-
+```
 ├── CMakeLists.txt
 ├── README.md
 ├── freeglut
@@ -28,7 +28,7 @@ Directory structure:
 │           ├── libfreeglut.a
 │           └── libfreeglut_static.a
 └── main.cpp
-
+```
 
 ## Requirements for this setup
 * CLion IDE
