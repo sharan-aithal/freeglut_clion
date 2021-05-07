@@ -3,10 +3,10 @@ If you have CLion IDE, and you want to run OpenGL programs on it, This simple gu
 Only you need have required tools and download GLUT library from here [freeglut](https://www.transmissionzero.co.uk/software/freeglut-devel/)
 
 ## Requirements for this setup
-* CLion IDE
-* CMake (built in CLion)
-* freeglut
-* MinGW with GCC
+* [Jetbrains CLion](https://www.jetbrains.com/clion/)
+* [CMake (bundled with CLion)](https://www.jetbrains.com/clion/features/cmake-support.html)
+* [freeglut](http://freeglut.sourceforge.net/)
+* [MinGW with GCC](https://sourceforge.net/projects/mingw-w64/)
 
 ## Set up
 * Create a new project from start up window of IDE. Select C++ Executable, and add project name and Create
