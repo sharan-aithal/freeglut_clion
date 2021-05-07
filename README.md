@@ -63,3 +63,10 @@ Only you need have required tools and download GLUT library from here [freeglut]
   * Place files in freeglut/include to your include/ directory
   * Place files in freeglut/lib to your lib/ directory
   * Place freeglut.dll from bin/ to your %PATH% path
+
+---
+
+## Checkout demo branch to test out
+**_demo_** branch included with freeglut library, adjust the link libraries according to your system's arch.
+
+Press `` Ctrl+Shift+` ``  or select `Git` > `Branches` and select `demo` branch, then build and run in your CLion.
