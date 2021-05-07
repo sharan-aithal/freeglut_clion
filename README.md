@@ -50,11 +50,16 @@ Only you need have required tools and download GLUT library from here [freeglut]
 
 * Before start build / running program you need to place `freeglut.dll` file in to one of directory of your %PATH% environmental variable.
   #### For 32 bit compiler
-  Place freeglut.dll from freeglut/freeglut.dll to your %PATH%
+  Place **_freeglut.dll_** from `freeglut/freeglut.dll` to your %PATH%
   #### For 64 bit compiler
-  Place freeglut.dll from freeglut/x64/freeglut.dll to your %PATH%
+  Place **_freeglut.dll_** from `freeglut/x64/freeglut.dll` to your %PATH%
 
 ## Note:
 + Ensure that you have completed MinGW installation, because this completely depends on MinGW.
 * * If you have 32bit GCC compiler then you need to use only 32bit library and DLL's
   * If your system has 64bit GCC compiler then you must use 64bit libraries otherwise you will encounter runtime error
+
+## Global configuration
+  * Place files in freeglut/include to your include/ directory
+  * Place files in freeglut/lib to your lib/ directory
+  * Place freeglut.dll from bin/ to your %PATH% path
